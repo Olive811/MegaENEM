@@ -496,6 +496,8 @@
 
 #pagebreak()
 
+
+
 ///////////////////////
 // Seção de Gabarito //
 ///////////////////////
@@ -521,7 +523,7 @@
     [63], [A], [Eletroquímica], [Fácil],
     [65], [E], [Equilíbrio Químico], [Médio],
     [67], [D], [Termoquímica], [Difícil],
-    [XX], [Y], [WWWWWWWWW], [ZZZZZ],
+    [69], [D], [Termoquímica], [Difícil],
     [XX], [Y], [WWWWWWWWW], [ZZZZZ],
     [XX], [Y], [WWWWWWWWW], [ZZZZZ],
   )
