@@ -66,20 +66,20 @@
 // Uso: #alternativas([texto A], [texto B], [texto C], [texto D], [texto E])
 #let alternativas(..itens) = {
   let letras = ("A", "B", "C", "D", "E", "F")
-  v(0.8em)
+  v(0.5em)
   for (i, item) in itens.pos().enumerate() {
     grid(
       columns: (auto, 1fr),
       column-gutter: 0.9em,
       align: (horizon, horizon),
       box(
-        width: 1.6em, height: 1.6em, radius: 50%,
+        width: 1.6em, height: 1.2em, radius: 50%,
         stroke: 0.8pt + c-borda,
         align(center + horizon, text(font: fonte-mono, size: 8.5pt, weight: "semibold", letras.at(i))),
       ),
       item,
     )
-    v(0.55em)
+    v(0.1em)
   }
 }
 
@@ -88,13 +88,13 @@
 // ============================================================
 #let config(body) = {
   set page(paper: "a4", margin: (x: 2.2cm, y: 2.4cm), numbering: "1", number-align: center)
-  set text(font: fonte-texto, size: 11pt, lang: "pt", fill: c-texto)
+  set text(font: "Libron", size: 11pt, lang: "pt", fill: c-texto)
   set par(leading: 0.75em, spacing: 1.1em, justify: true)
   set heading(numbering: none)
 
   // Seção do ano (nível 1)
   show heading.where(level: 1): it => block(width: 100%, below: 1.4em, {
-    text(size: 24pt, weight: "bold", tracking: -0.02em, it.body)
+    align(center, text(size: 24pt, weight: "bold", tracking: -0.02em, it.body))
     v(0.3em)
     line(length: 100%, stroke: 1.2pt + c-texto)
   })
@@ -166,12 +166,14 @@
     pill(nivel, cn.bg, cn.fg),
   )
 
-  v(0.9em)
+  v(0.01em)
 
   // --- Título ---
-  text(size: 27pt, weight: "bold", tracking: -0.02em)[Questão #numero — #prova #ano]
+  align(center)[
+    #text(size: 20pt, weight: "bold", tracking: -0.02em)[Questão #numero — #prova #ano]
+  ]
 
-  v(0.45em)
+  v(0.01em)
 
   // --- Subtítulo: Caderno · Dia ---
   {

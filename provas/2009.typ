@@ -86,6 +86,7 @@
 // ============================================================
 //  Configuração global do documento  →  #show: config
 // ============================================================
+
 #let config(body) = {
   set page(paper: "a4", margin: (x: 2.2cm, y: 2.4cm), numbering: "1", number-align: center)
   set text(font: "Libron", size: 11pt, lang: "pt", fill: c-texto)
@@ -223,6 +224,7 @@
 // ============================================================
 //  SEU DOCUMENTO COMEÇA AQUI
 // ============================================================
+
 #show: config
 
 #outline(title: [Sumário], depth: 2)
@@ -572,7 +574,7 @@
       else if calc.odd(y) { white }
       else { rgb("#fafafa") },
     table.header[*Questao*][*Resposta*][*Conteúdo*][*Dificuldade*],
-    [1], [C], [Química Ambiental], [Fácil],
+    [ 1], [C], [Química Ambiental], [Fácil],
     [12], [A], [Equilíbrio Químico], [Muito Difícil],
     [15], [B], [Eletroquímica], [Muito Difícil],
     [26], [D], [Equilíbrio Químico], [Difícil],

@@ -25,3 +25,6 @@
 
 // 2009
 #include "provas/2009.typ"
+
+// 2010
+#include "provas/2010.typ"
