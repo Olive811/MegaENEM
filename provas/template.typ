@@ -1,23 +1,23 @@
 #questao(
   macroarea: "Natureza",
   disciplina: "Química",
-  nivel: "Muito difícil",
+  nivel: "Médio",
   numero: 55,
-  prova: "ENEM",
+  prova: "ENEM PPL",
   ano: 2010,
   caderno: "Azul",
   dia: 1,
-  conteudo: "Separação de Misturas",
-  nova-pagina: false,
+  conteudo: "Conteúdo",
+  nova-pagina: true,
 )[
   Enunciado_da_questao
 
   #alternativas(
-    [A],
-    [B],
-    [C],
-    [D],
-    [E],
+    [], // a
+    [], // b
+    [], // c
+    [], // d
+    [], // e
   )
 ]
 
@@ -51,5 +51,23 @@
     [XX], [Y], [WWWWWWWWW], [ZZZZZ],
     [XX], [Y], [WWWWWWWWW], [ZZZZZ],
     [XX], [Y], [WWWWWWWWW], [ZZZZZ],
+  )
+]
+
+
+// Referências
+
+#align(right)[
+  #text(size: 8pt)[
+    #h(5em) texto
+  ]
+]  
+
+// Imagem
+
+#align(center)[
+  #image(
+    "imagens/2010_PPL/q80_2010_ppl.webp",
+    width: 100%
   )
 ]

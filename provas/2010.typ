@@ -496,6 +496,8 @@
 
 #pagebreak()
 
+// Questao 73
+
 #questao(
   macroarea: "Natureza",
   disciplina: "Química",
@@ -535,6 +537,8 @@
 
 #pagebreak()
 
+// Questao 74
+
 #questao(
   macroarea: "Natureza",
   disciplina: "Química",
@@ -561,6 +565,8 @@
 ]
 
 #pagebreak()
+
+// Questao 77
 
 #questao(
   macroarea: "Natureza",
@@ -602,6 +608,8 @@
 
 #pagebreak()
 
+// Questao 79
+
 #questao(
   macroarea: "Natureza",
   disciplina: "Química",
@@ -634,6 +642,8 @@
 ]
 
 #pagebreak()
+
+// Questao 80
 
 #questao(
   macroarea: "Natureza",
@@ -692,6 +702,8 @@
 ]
 
 #pagebreak()
+
+// Questao 82
 
 #questao(
   macroarea: "Natureza",
@@ -756,6 +768,8 @@
 
 #pagebreak()
 
+// Questao 83
+
 #questao(
   macroarea: "Natureza",
   disciplina: "Química",
@@ -796,6 +810,8 @@
 
 #pagebreak()
 
+// Questao 89
+
 #questao(
   macroarea: "Natureza",
   disciplina: "Química",
@@ -822,6 +838,8 @@
 ]
 
 #pagebreak()
+
+// Questao 90
 
 #questao(
   macroarea: "Natureza",
