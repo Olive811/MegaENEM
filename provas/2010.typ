@@ -227,7 +227,7 @@
 
 #show: config
 
-#outline(title: [Sumário], depth: 2)
+// #outline(title: [Sumário], depth: 2)
 
 #secao-ano("ENEM 2010")
 
@@ -496,7 +496,365 @@
 
 #pagebreak()
 
+#questao(
+  macroarea: "Natureza",
+  disciplina: "Química",
+  nivel: "Muito difícil",
+  numero: 73,
+  prova: "ENEM",
+  ano: 2010,
+  caderno: "Azul",
+  dia: 1,
+  conteudo: "Estequiometria",
+  nova-pagina: false,
+)[
+  A composição média de uma bateria automotiva esgotada é de aproximadamente 32% Pb, 3% PbO, 17% $"PbO"_2$ e 36% $"PbSO"_4$. A média de massa da pasta residual de uma bateria usada é de 6 kg, onde 19% é $"PbO"_2$, 60% $"PbSO"_4$ e 21% Pb. Entre todos os compostos de chumbo presentes na pasta, o que mais preocupa é o sulfato de chumbo (II), pois nos processos pirometalúrgicos, em que os compostos de chumbo (placas das baterias) são fundidos, há a conversão de sulfato em dióxido de enxofre, gás muito poluente. Para reduzir o problema das emissões de $"SO"_2$(g), a indústria pode utilizar uma planta mista, ou seja, utilizar o processo hidrometalúrgico, para a dessulfuração antes da fusão do composto de chumbo. Nesse caso, a redução de sulfato presente no PbSO4 é feita via lixiviação com solução de carbonato de sódio ($"Na"_2"CO"_3$) 1 M a 45° C, em que se obtém o carbonato de chumbo (II) com rendimento de 91 %. Após esse processo, o material segue para a fundição para obter o chumbo metálico.
 
+  #align(center)[
+    $"PbSO"_4 + "Na"_2"CO"_3 arrow.r "PbCO"_3 + "Na"_2"SO"_4$
+  ]
+
+  Dados: Massas Molares em g/mol Pb = 207; S=32; Na = 23; O=16 ; C=12
+
+  #align(right)[
+    #text(size: 8pt)[
+      ARAÚJO, R. V. V.; TINDADE, R. B. E.; SOARES, P. S. M. *Reciclagem de chumbo de bateria automotiva:* estudo de caso.   Disponível em: http://www.iqsc.usp.br. Acesso em: 17 abr. 2010 (adaptado).
+    ]
+  ]
+
+  Segundo as condições do processo apresentado para a obtenção de carbonato de chumbo (II) por meio da lixiviação por carbonato de sódio e considerando uma massa de pasta residual de uma bateria de 6 kg, qual quantidade aproximada, em quilogramas, de $"PbCO"_3$ é obtida?
+
+  #alternativas(
+    [1,7 kg],
+    [1,9 kg],
+    [2,9 kg],
+    [3,3 kg],
+    [3,6 kg],
+  )
+]
+
+#pagebreak()
+
+#questao(
+  macroarea: "Natureza",
+  disciplina: "Química",
+  nivel: "Muito difícil",
+  numero: 74,
+  prova: "ENEM",
+  ano: 2010,
+  caderno: "Azul",
+  dia: 1,
+  conteudo: "Eletroquímica",
+  nova-pagina: false,
+)[
+  A eletrólise é muito empregada na indústria com o objetivo de reaproveitar parte dos metais sucateados. O cobre, por exemplo, é um dos metais com maior rendimento no processo de eletrólise, com uma recuperação de aproximadamente 99,9%. Por ser um metal de alto valor comercial e de múltiplas aplicações, sua recuperação torna-se viável economicamente.
+
+  Suponha que, em um processo de recuperação de cobre puro, tenha-se eletrolisado uma solução de sulfato de cobre (II) ($"CuSO"_4$) durante 3 h, empregando-se uma corrente elétrica de intensidade igual a 10 A. A massa de cobre puro recuperada é de aproximadamente Dados: Constante de Faraday F = 96500 C / mol; Massa molar em g/mol: Cu = 63,5.
+
+  #alternativas(
+    [0,02 g],
+    [0,04 g],
+    [2,40 g],
+    [35,5 g],
+    [71,0 g],
+  )
+]
+
+#pagebreak()
+
+#questao(
+  macroarea: "Natureza",
+  disciplina: "Química",
+  nivel: "Médio",
+  numero: 77,
+  prova: "ENEM",
+  ano: 2010,
+  caderno: "Azul",
+  dia: 1,
+  conteudo: "Química Orgânica: Reações Orgânicas",
+  nova-pagina: false,
+)[
+  No ano de 2004, diversas mortes de animais por envenenamento no zoológico de São Paulo foram evidenciadas. Estudos técnicos apontam suspeita de intoxicação por monofluoracetato de sódio, conhecido como composto 1080 e ilegalmente comercializado como raticida. O monofluoracetato de sódio é um derivado do ácido monofluoracético e age no organismo dos mamíferos bloqueando o ciclo de Krebs, que pode levar à parada da respiração celular oxidativa e ao acúmulo de amônia na circulação.
+
+  #align(center)[
+    #image(
+      "imagens/2010/q77_2010.svg",
+      width: 50%
+    )
+  ]
+
+  #align(right)[
+    #text(size: 8pt)[
+      Disponível em: http://www1.folha.uol.com.br. Acesso em: 05 ago. 2010 (adaptado).
+    ]
+  ]
+
+  O monofluoracetato de sódio pode ser obtido pela
+
+  #alternativas(
+    [desidratação do ácido monofluoracético, com liberação de água.],
+    [hidrólise do ácido monofluoracético, sem formação de água.],
+    [perda de íons hidroxila do ácido monofluoracético, com liberação de hidróxido de sódio.],
+    [neutralização do ácido monofluoracético usando hidróxido de sódio, com liberação de água.],
+    [substituição dos íons hidrogênio por sódio na estrutura do ácido monofluoracético, sem formação de água.],
+  )
+]
+
+#pagebreak()
+
+#questao(
+  macroarea: "Natureza",
+  disciplina: "Química",
+  nivel: "Médio",
+  numero: 79,
+  prova: "ENEM",
+  ano: 2010,
+  caderno: "Azul",
+  dia: 1,
+  conteudo: "Estequimetria",
+  nova-pagina: false,
+)[
+  As mobilizações para promover um planeta melhor para as futuras gerações são cada vez mais frequentes. A maior parte dos meios de transporte de massa é atualmente movida pela queima de um combustível fóssil. A título de exemplificação do ônus causado por essa prática, basta saber que um carro produz, em média, cerca de 200 g de dióxido de carbono por km percorrido.
+
+  #align(right)[
+    #text(size: 8pt)[
+      Revista Aquecimento Global. Ano 2, n° 8. Publicação do Instituto Brasileiro de Cultura Ltda.
+    ]
+  ]
+
+  Um dos principais constituintes da gasolina é o octano ($"C"_8"H"_18$). Por meio da combustão do octano é possível a liberação de energia, permitindo que o carro entre em movimento. A equação que representa a reação química desse processo demonstra que
+
+  #alternativas(
+    [no processo há liberação de oxigênio, sob a forma de $"O"_2$.],
+    [o coeficiente estequiométrico para a água é de 8 para 1 do octano.],
+    [no processo há consumo de água, para que haja liberação de energia.],
+    [o coeficiente estequiométrico para o oxigênio é de 12,5 para 1 do octano.],
+    [o coeficiente estequiométrico para o gás carbônico é de 9 para 1 do octano],
+  )
+]
+
+#pagebreak()
+
+#questao(
+  macroarea: "Natureza",
+  disciplina: "Química",
+  nivel: "Difícil",
+  numero: 80,
+  prova: "ENEM",
+  ano: 2010,
+  caderno: "Azul",
+  dia: 1,
+  conteudo: "Química Orgânica: Funções Orgânicas",
+  nova-pagina: false,
+)[
+  Os pesticidas modernos são divididos em várias classes, entre as quais se destacam os organofosforados, materiais que apresentam efeito tóxico agudo para os seres humanos. Esses pesticidas contêm um átomo central de fósforo ao qual estão ligados outros átomos ou grupo de átomos como oxigênio, enxofre, grupos metoxi ou etoxi, ou um radical orgânico de cadeia longa. Os organofosforados são divididos em três subclasses: *Tipo A*, na qual o enxofre não se incorpora na molécula; *Tipo B*, na qual o oxigênio, que faz dupla ligação com fósforo, é substituído pelo enxofre; e *Tipo C*, no qual dois oxigênios são substituídos por enxofre.
+
+  #align(right)[
+    #text(size: 8pt)[
+      BAIRD, C. *Química Ambiental*. Bookmam, 2005.
+    ]
+  ]
+
+  Um exemplo de pesticida organofosforado *Tipo B*, que apresenta grupo etoxi em sua fórmula estrutural, está representado em:
+
+  #alternativas(
+    [
+      #image(
+        "imagens/2010/q80_2010_a.png",
+        width: 30%
+      )
+    ],
+    [
+      #image(
+        "imagens/2010/q80_2010_b.png",
+        width: 30%
+      )
+    ],
+    [
+      #image(
+        "imagens/2010/q80_2010_c.png",
+        width: 30%
+      )
+    ],
+    [
+      #image(
+        "imagens/2010/q80_2010_d.png",
+        width: 50%
+      )
+    ],
+    [
+      #image(
+        "imagens/2010/q80_2010_e.png",
+        width: 50%
+      )
+    ],
+  )
+]
+
+#pagebreak()
+
+#questao(
+  macroarea: "Natureza",
+  disciplina: "Química",
+  nivel: "Difícil",
+  numero: 82,
+  prova: "ENEM",
+  ano: 2010,
+  caderno: "Azul",
+  dia: 1,
+  conteudo: "Eletroquímica",
+  nova-pagina: false,
+)[
+  As baterias de Ni-Cd muito utilizadas no nosso cotidiano não devem ser descartadas em lixos comuns uma vez que uma considerável quantidade de cádmio é volatilizada e emitida para o meio ambiente quando as baterias gastas são incineradas como componente do lixo. Com o objetivo de evitar a emissão de cádmio para a atmosfera durante a combustão é indicado que seja feita a reciclagem dos materiais dessas baterias. 
+  
+  Uma maneira de separar o cádmio dos demais compostos presentes na bateria é realizar o processo de lixiviação ácida. Nela, tanto os metais (Cd, Ni e eventualmente Co) como os hidróxidos de íons metálicos $"Cd(OH)"_2$(s), $"Ni(OH)"_2$(s), $"Co(OH)"_2$(s) presentes na bateria, reagem com uma mistura ácida e são solubilizados. Em função da baixa seletividade (todos os íons metálicos são solubilizados), após a digestão ácida, é realizada uma etapa de extração dos metais com solventes orgânicos de acordo com a reação:
+
+  #v(1em)
+
+  #align(center)[
+    $"M"^"2+" ""_"(aq)" 
+    + 2 "HR" ""_"(org)" 
+    harpoons.rtlb 
+    "MR"_"2" ""_"(org)" 
+    + 2 "H"^"+" ""_"(aq)"$
+  ]
+
+  #v(1em)
+
+  Onde :
+  $"M"^"2+" = "Cd"^"2+" , "Ni"^"2+" "ou" "Co"^"2+"$
+
+  HR = $"C"_16"H"_34–"PO"_2"H"$ : identificado no gráfico por *X*
+
+  HR = $"C"_12"H"_12–"PO"_2"H"$ : identificado no gráfico por *Y*
+  
+  O gráfico mostra resultado da extração utilizando os solventes orgânicos *X* e *Y* em diferentes pH.
+
+  #align(center)[
+    #image(
+      "imagens/2010/q82_2010.png",
+      width: 60%
+    )
+  ]
+
+  #align(right)[
+    #text(size: 8pt)[
+      Disponível em: http://www.scielo.br. Acesso em 28 abr. 2010.
+    ]
+  ]
+
+  A reação descrita no texto mostra o processo de extração dos metais por meio da reação com moléculas orgânicas, *X* e *Y*. Considerando-se as estruturas de *X* e *Y* e o processo de separação descrito, pode-se  firmar que
+
+  #alternativas(
+    [as moléculas *X* e *Y* atuam como extratores catiônicos uma vez que a parte polar da molécula troca o íon $"H"^+$ pelo cátion do metal.],
+    [as moléculas *X* e *Y* atuam como extratores aniônicos uma vez que a parte polar da molécula troca o íon $"H"^+$ pelo cátion do metal.],
+    [as moléculas *X* e *Y* atuam como extratores  catiônicos uma vez que a parte apolar da molécula troca o íon $"PO"_2^"2-"$ pelo cátion do metal.],
+    [as moléculas *X* e *Y* atuam como extratores aniônicos uma vez que a parte polar da molécula troca o íon $"PO"_2^"2-"$ pelo cátion do metal.],
+    [as moléculas *X* e *Y* fazem ligações com os íons metálicos resultando em compostos com caráter apolar o que justifica a eficácia da extração.],
+  )
+]
+
+#pagebreak()
+
+#questao(
+  macroarea: "Natureza",
+  disciplina: "Química",
+  nivel: "Médio",
+  numero: 83,
+  prova: "ENEM",
+  ano: 2010,
+  caderno: "Azul",
+  dia: 1,
+  conteudo: "Soluções: Concentração Molar",
+  nova-pagina: false,
+)[
+  Ao colocar um pouco de açúcar na água e mexer até a obtenção de uma só fase, prepara-se uma solução. O mesmo acontece ao se adicionar um pouquinho de sal à água e misturar bem. Uma substância capaz de dissolver o soluto é denominada solvente; por exemplo, a água é um solvente para o açúcar, para o sal e para várias outras substâncias. A figura a seguir ilustra essa citação.
+
+  #align(center)[
+    #image(
+      "imagens/2010/q83_2010.png",
+      width: 60%
+    )
+  ]
+
+  #align(right)[
+    #text(size: 8pt)[
+      Disponível em: www.sobiologia.com.br. Acesso em: 27 abr. 2010.
+    ]
+  ]
+
+  Suponha que uma pessoa, para adoçar seu cafezinho, tenha utilizado 3,42 g de sacarose (massa molar igual a 342 g / mol ) para uma xícara de 50 mL do líquido. Qual é a concentração final, em mol/L, de sacarose nesse cafezinho?
+
+  #alternativas(
+    [0,02],
+    [0,2],
+    [2],
+    [200],
+    [2000],
+  )
+]
+
+#pagebreak()
+
+#questao(
+  macroarea: "Natureza",
+  disciplina: "Química",
+  nivel: "Muito Fácil",
+  numero: 89,
+  prova: "ENEM",
+  ano: 2010,
+  caderno: "Azul",
+  dia: 1,
+  conteudo: "Química Ambiental",
+  nova-pagina: false,
+)[
+  Deseja-se instalar uma estação de geração de energia elétrica em um município localizado no interior de um pequeno vale cercado de altas montanhas de difícil acesso. A cidade é cruzada por um rio, que é fonte de água para consumo, irrigação das lavouras de subsistência e pesca. Na região, que possui pequena extensão territorial, a incidência solar é alta o ano todo. A estação em questão irá abastecer apenas o município apresentado.
+
+  Qual forma de obtenção de energia, entre as apresentadas, é a mais indicada para ser implantada nesse município de modo a causar o menor impacto ambiental?
+
+  #alternativas(
+    [Termelétrica, pois é possível utilizar a água do rio no sistema de refrigeração.],
+    [Eólica, pois a geografia do local é própria para a captação desse tipo de energia.],
+    [Nuclear, pois o modo de resfriamento de seus sistemas não afetaria a população.],
+    [Fotovoltaica, pois é possível aproveitar a energia solar que chega à superfície do local.],
+    [Hidrelétrica, pois o rio que corta o município é suficiente para abastecer a usina construída.],
+  )
+]
+
+#pagebreak()
+
+#questao(
+  macroarea: "Natureza",
+  disciplina: "Química",
+  nivel: "Fácil",
+  numero: 90,
+  prova: "ENEM",
+  ano: 2010,
+  caderno: "Azul",
+  dia: 1,
+  conteudo: "Separação de Misturas",
+  nova-pagina: false,
+)[
+  O lixão que recebia 130 toneladas de lixo e contaminava a região com o seu chorume (líquido derivado da decomposição de compostos orgânicos) foi recuperado, transformando-se em um aterro sanitário controlado, mudando a qualidade de vida e a paisagem e proporcionando condições dignas de trabalho para os que dele subsistiam.
+
+  #align(right)[
+    #text(size: 8pt)[
+      *Revista Promoção da Saúde da Secretaria de Políticas de Saúde.* Ano 1, n° 4, dez. 2000 (adaptado).
+    ]
+  ]
+
+  Quais procedimentos técnicos tornam o aterro sanitário mais vantajoso que o lixão, em relação às problemáticas abordadas no texto?
+
+  #alternativas(
+    [O lixo é recolhido e incinerado pela combustão a altas temperaturas.],
+    [O lixo hospitalar é separado para ser enterrado e sobre ele, colocada cal virgem],
+    [O lixo orgânico e inorgânico é encoberto, e o chorume canalizado para ser tratado e neutralizado.],
+    [O lixo orgânico é completamente separado do lixo inorgânico, evitando a formação de chorume.],
+    [O lixo industrial é separado e acondicionado de forma adequada, formando uma bolsa de resíduos],
+  )
+]
+
+#pagebreak()
 
 ///////////////////////
 // Seção de Gabarito //
@@ -524,7 +882,14 @@
     [65], [E], [Equilíbrio Químico], [Médio],
     [67], [D], [Termoquímica], [Difícil],
     [69], [D], [Termoquímica], [Difícil],
-    [XX], [Y], [WWWWWWWWW], [ZZZZZ],
-    [XX], [Y], [WWWWWWWWW], [ZZZZZ],
+    [73], [C], [Estequiometria], [Muito Difícil],
+    [74], [D], [Eletroquímica], [Muito Difícil],
+    [77], [D], [Química Orgânica: Reações Orgânicas], [Médio],
+    [79], [D], [Estequiometria], [Médio],
+    [80], [E], [Química Orgânica: Funções Orgânicas], [Difícil],
+    [82], [A], [Eletroquímica], [Difícil],
+    [83], [B], [Soluções: Concentração Molar], [Médio],
+    [89], [D], [Química Ambiental], [Muito Fácil],
+    [90], [C], [Química Ambiental], [Fácil]
   )
 ]
