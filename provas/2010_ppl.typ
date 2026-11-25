@@ -545,7 +545,7 @@
 
   #align(center)[
     #image(
-      "imagens/2010_PPL/q77_2010_ppl.png",
+      "imagens/2010_PPL/q77_2010_ppl.webp",
       width: 55%
     )
       
