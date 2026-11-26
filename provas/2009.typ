@@ -573,7 +573,7 @@
       if y == 0 { rgb("#f5f7fb") }
       else if calc.odd(y) { white }
       else { rgb("#fafafa") },
-    table.header[*Questao*][*Resposta*][*Conteúdo*][*Dificuldade*],
+    table.header[*Questão*][*Resposta*][*Conteúdo*][*Dificuldade*],
     [ 1], [C], [Química Ambiental], [Fácil],
     [12], [A], [Equilíbrio Químico], [Muito Difícil],
     [15], [B], [Eletroquímica], [Muito Difícil],

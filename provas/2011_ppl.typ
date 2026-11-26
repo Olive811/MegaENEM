@@ -698,7 +698,7 @@
       if y == 0 { rgb("#f5f7fb") }
       else if calc.odd(y) { white }
       else { rgb("#fafafa") },
-    table.header[*Questao*][*Resposta*][*Conteúdo*][*Dificuldade*],
+    table.header[*Questão*][*Resposta*][*Conteúdo*][*Dificuldade*],
     [46], [D], [Radioatividade], [Muito Fácil],
     [49], [A], [Termoquímica], [Muito Fácil],
     [50], [C], [Eletroquímica], [Médio],

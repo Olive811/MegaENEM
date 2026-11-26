@@ -33,3 +33,7 @@
 // 2011
 #include "provas/2011.typ"
 #include "provas/2011_ppl.typ"
+
+// 2012
+#include "provas/2012.typ"
+#include "provas/2012_ppl.typ"

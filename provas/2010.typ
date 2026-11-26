@@ -892,7 +892,7 @@
       if y == 0 { rgb("#f5f7fb") }
       else if calc.odd(y) { white }
       else { rgb("#fafafa") },
-    table.header[*Questao*][*Resposta*][*Conteúdo*][*Dificuldade*],
+    table.header[*Questão*][*Resposta*][*Conteúdo*][*Dificuldade*],
     [55], [C], [Separação de misturas], [Difícil],
     [59], [D], [Química Ambiental], [Muito Fácil],
     [60], [A], [Soluções], [Fácil],

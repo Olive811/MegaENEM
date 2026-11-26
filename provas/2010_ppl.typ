@@ -824,7 +824,7 @@
       if y == 0 { rgb("#f5f7fb") }
       else if calc.odd(y) { white }
       else { rgb("#fafafa") },
-    table.header[*Questao*][*Resposta*][*Conteúdo*][*Dificuldade*],
+    table.header[*Questão*][*Resposta*][*Conteúdo*][*Dificuldade*],
     [56], [C], [Cinética Química], [Muito Fácil],
     [60], [E], [Matéria e suas transformações], [Muito Fácil],
     [62], [A], [Equilíbrio Químico], [Médio],
