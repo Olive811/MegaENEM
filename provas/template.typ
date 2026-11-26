@@ -3,9 +3,9 @@
   disciplina: "Química",
   nivel: "Médio",
   numero: 00,
-  prova: "ENEM",
+  prova: "ENEM PPL",
   ano: 2011,
-  caderno: "Azul",
+  caderno: "Branco",
   dia: 1,
   conteudo: "Conteúdo",
   nova-pagina: true,
@@ -70,3 +70,5 @@
   )
 ]
 
+// simbolos
+// meia-risca: –
