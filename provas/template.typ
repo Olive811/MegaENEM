@@ -2,9 +2,9 @@
   macroarea: "Natureza",
   disciplina: "Química",
   nivel: "Médio",
-  numero: 55,
-  prova: "ENEM PPL",
-  ano: 2010,
+  numero: 00,
+  prova: "ENEM",
+  ano: 2011,
   caderno: "Azul",
   dia: 1,
   conteudo: "Conteúdo",
@@ -21,11 +21,27 @@
   )
 ]
 
-#pagebreak()
+// Imagem
+
+#align(center)[
+  #image(
+    "",
+    width: 100%
+  )
+]
+
+// Referências
+
+#align(right)[
+  #text(size: 8pt)[
+    #h(5em) 
+  ]
+]  
 
 ///////////////////////
 // Seção de Gabarito //
 ///////////////////////
+#pagebreak()
 
 #align(center)[
   #text(size: 1.5em)[
@@ -54,20 +70,3 @@
   )
 ]
 
-
-// Referências
-
-#align(right)[
-  #text(size: 8pt)[
-    #h(5em) texto
-  ]
-]  
-
-// Imagem
-
-#align(center)[
-  #image(
-    "imagens/2010_PPL/q80_2010_ppl.webp",
-    width: 100%
-  )
-]

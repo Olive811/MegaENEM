@@ -812,7 +812,7 @@
 
 #align(center)[
   #text(size: 1.5em)[
-    == Gabarito
+    == Gabarito PPL 2010
   ]
   #v(1em)
 

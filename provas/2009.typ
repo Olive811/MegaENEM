@@ -561,7 +561,7 @@
 
 #align(center)[
   #text(size: 1.5em)[
-    == Gabarito
+    == Gabarito 2009
   ]
   #v(1em)
 

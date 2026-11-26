@@ -880,7 +880,7 @@
 
 #align(center)[
   #text(size: 1.5em)[
-    == Gabarito
+    == Gabarito 2010
   ]
   #v(1em)
 
